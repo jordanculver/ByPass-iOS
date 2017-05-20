@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06189BEB1ED01803007C8D22 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06189BDE1ED017BF007C8D22 /* SwiftHTTP.framework */; };
+		06A869861ECFF46A00BE6547 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A869851ECFF46A00BE6547 /* Default-568h@2x.png */; };
 		1F1E733C1ECF926F00900976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E733B1ECF926F00900976 /* AppDelegate.swift */; };
 		1F1E733E1ECF926F00900976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E733D1ECF926F00900976 /* ViewController.swift */; };
 		1F1E73411ECF926F00900976 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F1E733F1ECF926F00900976 /* Main.storyboard */; };
@@ -19,6 +21,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		06189BDD1ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		06189BDF1ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		06189BE11ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		06189BE31ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
+		};
+		06189BE51ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135EC11C4733CD00AA3A01;
+			remoteInfo = SwiftHTTPtvOS;
+		};
+		06189BE71ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135ECA1C4733CE00AA3A01;
+			remoteInfo = SwiftHTTPtvOSTests;
+		};
+		06189BE91ED017BF007C8D22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135FA91C4737E200AA3A01;
+			remoteInfo = SwiftHTTPWatchOS;
+		};
 		1F1E734D1ECF926F00900976 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F1E73301ECF926F00900976 /* Project object */;
@@ -36,6 +87,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = ../../swift/SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = "<group>"; };
+		06A869851ECFF46A00BE6547 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1F1E73381ECF926F00900976 /* ByPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F1E733B1ECF926F00900976 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F1E733D1ECF926F00900976 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06189BEB1ED01803007C8D22 /* SwiftHTTP.framework in Frameworks */,
 				1F1E736D1ECFA3B700900976 /* CoreLocation.framework in Frameworks */,
 				1F1E736B1ECFA39B00900976 /* CoreBluetooth.framework in Frameworks */,
 			);
@@ -80,9 +134,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06189BD41ED017BF007C8D22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06189BDE1ED017BF007C8D22 /* SwiftHTTP.framework */,
+				06189BE01ED017BF007C8D22 /* SwiftHTTPTests.xctest */,
+				06189BE21ED017BF007C8D22 /* SwiftHTTP.framework */,
+				06189BE41ED017BF007C8D22 /* SwiftHTTPOSXTests.xctest */,
+				06189BE61ED017BF007C8D22 /* SwiftHTTP.framework */,
+				06189BE81ED017BF007C8D22 /* SwiftHTTPtvOSTests.xctest */,
+				06189BEA1ED017BF007C8D22 /* SwiftHTTP.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		1F1E732F1ECF926F00900976 = {
 			isa = PBXGroup;
 			children = (
+				06A869851ECFF46A00BE6547 /* Default-568h@2x.png */,
+				06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */,
 				1F1E733A1ECF926F00900976 /* ByPass */,
 				1F1E734F1ECF926F00900976 /* ByPassTests */,
 				1F1E735A1ECF926F00900976 /* ByPassUITests */,
@@ -209,6 +279,7 @@
 				TargetAttributes = {
 					1F1E73371ECF926F00900976 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KV4PAHN7Y7;
 						ProvisioningStyle = Automatic;
 					};
 					1F1E734B1ECF926F00900976 = {
@@ -234,6 +305,12 @@
 			mainGroup = 1F1E732F1ECF926F00900976;
 			productRefGroup = 1F1E73391ECF926F00900976 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 06189BD41ED017BF007C8D22 /* Products */;
+					ProjectRef = 06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1F1E73371ECF926F00900976 /* ByPass */,
@@ -243,12 +320,65 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		06189BDE1ED017BF007C8D22 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 06189BDD1ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BE01ED017BF007C8D22 /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = 06189BDF1ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BE21ED017BF007C8D22 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 06189BE11ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BE41ED017BF007C8D22 /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = 06189BE31ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BE61ED017BF007C8D22 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 06189BE51ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BE81ED017BF007C8D22 /* SwiftHTTPtvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPtvOSTests.xctest;
+			remoteRef = 06189BE71ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		06189BEA1ED017BF007C8D22 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 06189BE91ED017BF007C8D22 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1F1E73361ECF926F00900976 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1F1E73461ECF926F00900976 /* LaunchScreen.storyboard in Resources */,
+				06A869861ECFF46A00BE6547 /* Default-568h@2x.png in Resources */,
 				1F1E73431ECF926F00900976 /* Assets.xcassets in Resources */,
 				1F1E73411ECF926F00900976 /* Main.storyboard in Resources */,
 			);
@@ -428,6 +558,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KV4PAHN7Y7;
 				INFOPLIST_FILE = ByPass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AA.ByPass;
@@ -440,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KV4PAHN7Y7;
 				INFOPLIST_FILE = ByPass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AA.ByPass;
@@ -521,6 +653,7 @@
 				1F1E73621ECF926F00900976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F1E73631ECF926F00900976 /* Build configuration list for PBXNativeTarget "ByPassTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +662,7 @@
 				1F1E73651ECF926F00900976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F1E73661ECF926F00900976 /* Build configuration list for PBXNativeTarget "ByPassUITests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +671,7 @@
 				1F1E73681ECF926F00900976 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
