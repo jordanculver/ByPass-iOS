@@ -69,9 +69,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                 }
                 
                 self.checkForFailure(data: response.data)
-
-//                self.loadBypassWebView(url: ViewController.boardedUrl)
-                // notify user (notification/alert)
             }
         } catch let error {
             print("got an error creating the request: \(error)")
@@ -93,10 +90,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     func checkForFailure(data: Data) {
     
-//        let jsonData = try? JSONSerialization.jsonObject(with: data, options: [])
-//        guard let customerData = jsonData as? [String: Any], let _ = customerData["customerData"] as? [String: Any] else {
-//            return
-//        }
         let res = self.dictionaryWithContentsOfJSON(data: data)
         if ("boardingFailure" == res?["pageNavigation"] as? String) {
             loadBypassWebView(url: ViewController.failureUrl)
@@ -113,7 +106,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     func dictionaryWithContentsOfJSON(data: Data) -> [String: Any]? {
         
         do {
-//            let jsonData = try Data(contentsOf: url)
             let dictionary = try JSONSerialization.jsonObject(with: data) as? [String: Any]
             return dictionary
         } catch {
