@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		06189BEB1ED01803007C8D22 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06189BDE1ED017BF007C8D22 /* SwiftHTTP.framework */; };
+		06189BED1ED07766007C8D22 /* SwiftHTTP.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 06189BDE1ED017BF007C8D22 /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		06A869861ECFF46A00BE6547 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 06A869851ECFF46A00BE6547 /* Default-568h@2x.png */; };
 		1F1E733C1ECF926F00900976 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E733B1ECF926F00900976 /* AppDelegate.swift */; };
 		1F1E733E1ECF926F00900976 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1E733D1ECF926F00900976 /* ViewController.swift */; };
@@ -85,6 +86,20 @@
 			remoteInfo = ByPass;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06189BEC1ED0772C007C8D22 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				06189BED1ED07766007C8D22 /* SwiftHTTP.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		06189BD31ED017BF007C8D22 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = ../../swift/SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = "<group>"; };
@@ -221,6 +236,7 @@
 				1F1E73341ECF926F00900976 /* Sources */,
 				1F1E73351ECF926F00900976 /* Frameworks */,
 				1F1E73361ECF926F00900976 /* Resources */,
+				06189BEC1ED0772C007C8D22 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);

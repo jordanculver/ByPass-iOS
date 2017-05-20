@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -23,16 +22,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CmM-Jm-hWi">
-                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4H6-rQ-SOj"/>
-                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Uot-WW-wlY"/>
-                            <constraint firstAttribute="bottom" secondItem="CmM-Jm-hWi" secondAttribute="bottom" constant="20" symbolic="YES" id="c43-qr-90w"/>
-                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uIh-9f-4Dg"/>
+                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5sT-HH-KuS"/>
+                            <constraint firstAttribute="trailing" secondItem="CmM-Jm-hWi" secondAttribute="trailing" id="WGR-yX-ahL"/>
+                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bET-HR-Ecw"/>
+                            <constraint firstItem="CmM-Jm-hWi" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="tRv-Ls-Myw"/>
                         </constraints>
                     </view>
                     <connections>
